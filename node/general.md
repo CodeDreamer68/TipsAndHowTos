@@ -8,11 +8,13 @@
 
 List global modules: 
 ```cmd
-> npm list -g
+npm list -g --depth=0
 ```
+
 List local modules
+
 ```cmd
-> npm list
+npm list --depth=0
 ```
 Determine where global Node packages are installed
 ```cmd
